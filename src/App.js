@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <header classNacdme="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p> OK cool
-          i was changed twice <code>src/App.js</code> and   to reload.
+        <p> Deployment success
+         <code>src/App.js</code> and push to reload.
         </p>
         <a
           className="App-link"
