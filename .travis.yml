@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before-install:
+  - docker build -t slashuzero/docker-react -f Dockerfile.dev .
+
+scripts:
+  - docker run -e CI=true slashuzero/docker-react npm run test
