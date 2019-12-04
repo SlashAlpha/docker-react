@@ -5,10 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header classNacdme="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p> OK cool
+          i was changed twice <code>src/App.js</code> and   to reload.
         </p>
         <a
           className="App-link"
